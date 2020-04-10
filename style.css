@@ -1,0 +1,218 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+  }
+  
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #d1ddd1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ddd1dd;
+  }
+  
+  .Titre {
+    margin: 0px;
+    padding: 20px;
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 35px;
+  }
+  
+  nav {
+    height: 80px;
+  }
+  
+  nav a {
+    padding: 40px;
+    font-size: 20px;
+  }
+  a:link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+  }
+  a:hover {
+    color: red;
+  }
+  
+  .Photo {
+    border-radius: 50%;
+    width:200px;
+  }
+  
+  .GrandeSection {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+  
+  .Interm {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+
+  #Wild {
+    margin: 0 auto;
+  }
+  .Container {
+    margin-top: 20px;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 1em grey;
+  }
+  .Section {
+    width: 400px;
+    background-color: #ddd1dd;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+    vertical-align: top;
+  }
+
+  .self {
+    align-self: center;
+    width:90%;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  .icones {
+    filter: grayscale(1);
+    width: 30px;
+    vertical-align: sub;
+  }
+
+  .technos{
+    height: 30px;
+    vertical-align: sub;
+  }
+  
+  .TitreSection {
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+    font-weight: 800;
+  }
+  
+  .ContainerEmployeur {
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 1em grey;
+  }
+  .SousContainerEmployeur {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .SectionEmployeur {
+    width: 200px;
+    background-color: #d1ddd1;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 0 10px 10px;
+    vertical-align: top;
+    text-align: center;
+  }
+  .SectionExperience {
+    width: 600px;
+    background-color: #f4f6f4;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 0 10px 10px;
+    vertical-align: top;
+  }
+  
+  .logos {
+    width: 40px;
+    vertical-align: sub;
+  }
+
+  .logosgrands {
+    width: 80px;
+    vertical-align: sub;
+  }
+  
+  .logosformation {
+    width: 80px;
+    vertical-align: sub;
+  }
+  
+  input[type="email"],
+  textarea {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #d1ddd1;
+    resize: none;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  textarea:focus {
+    background-color: #d1ddd1;
+  }
+  
+  input[type="submit"] {
+    background-color: #d1ddd1;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    transform: translate(270px, 0px);
+  }
+  
+  .formation {
+    text-align: center;
+  }
+  
+  #progress {
+    width: 400px;
+    margin: auto;
+  }
+  
+  .vertical {
+    flex-direction: column;
+  }
+  .ContainerCompetences {
+    margin-top: 20px;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 1em grey;
+  }
+  
