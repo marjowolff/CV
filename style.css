@@ -80,6 +80,17 @@ body {
     justify-content: space-evenly;
     box-shadow: 0 0 1em grey;
   }
+
+  .Containerprofile {
+    margin-top: 20px;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0 0 1em grey;
+  }
+
   .Section {
     width: 400px;
     background-color: #ddd1dd;
